@@ -31,7 +31,7 @@ namespace GPA_Calculator
             string input_name = regname.Text;
             string input_username = regusername.Text;
             string input_password = regpassword.Text; // Use plain text password
-            string input_email = regemail.Text;
+            string input_email = email.Text;
 
             if (string.IsNullOrEmpty(input_name) || string.IsNullOrEmpty(input_username)|| string.IsNullOrEmpty(input_password)|| string.IsNullOrEmpty(input_email))
             {
